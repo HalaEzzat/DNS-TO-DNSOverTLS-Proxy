@@ -46,3 +46,13 @@ Metrics: The proxy could expose metrics such as the number of requests and respo
 - IPv6 Support: The current implementation only supports IPv4. IPv6 support could be added to make the proxy more compatible with modern networks.
 
 Overall, the DNS-to-DNS-over-TLS proxy is a simple but useful tool that can improve the security and privacy of DNS traffic. With some additional features and security improvements, it could be a valuable addition to any network architecture.
+
+## Test
+- Test 1
+![test1](https://user-images.githubusercontent.com/22475831/227200438-9fdc7d96-3ae1-4b5f-b0d2-9051f4c255c8.PNG)
+
+- Test 2
+![test2](https://user-images.githubusercontent.com/22475831/227200516-bbf28b6b-7cff-4f87-bec8-2ac9d855ef39.PNG)
+
+- Test 3
+![test3](https://user-images.githubusercontent.com/22475831/227200577-b3b6ff23-2fac-4008-93c9-4ca8d94c47de.PNG)
