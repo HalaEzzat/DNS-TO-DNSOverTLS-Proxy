@@ -10,13 +10,21 @@ This program is a DNS-to-DNS-over-TLS proxy written in Python. It listens on por
 ## Installation
 
 - Create docker image by using Dockerfile which is in the root directory by run this command:
-    `docker build -t dns-over-tls .`
+    ```sh 
+    docker build -t dns-over-tls .
+    ```
 - Create docker network by using this command:
-    `docker network create --subnet 172.168.1.0/24 myNetwork`
+    ```sh
+    docker network create --subnet 172.168.1.0/24 myNetwork
+    ```
 - Run the container by using that docker image we created in the previous step by run this command:
-    `docker run -p 12853:12853/tcp --net myNetwork -it dns-over-tls`
+    ```sh 
+    docker run -p 12853:12853/tcp --net myNetwork -it dns-over-tls
+    ```
 - You can test this by making nslookup or dig request
-    `dig @127.0.0.1 -p 12853 +tcp google.com`
+    ```sh
+    dig @127.0.0.1 -p 12853 +tcp google.com
+    ```
 
 ## Security Concerns
 
