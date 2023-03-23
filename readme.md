@@ -48,11 +48,11 @@ Metrics: The proxy could expose metrics such as the number of requests and respo
 Overall, the DNS-to-DNS-over-TLS proxy is a simple but useful tool that can improve the security and privacy of DNS traffic. With some additional features and security improvements, it could be a valuable addition to any network architecture.
 
 ## Test
-- Test 1
+- Test 1 <br>
 ![test1](https://user-images.githubusercontent.com/22475831/227200438-9fdc7d96-3ae1-4b5f-b0d2-9051f4c255c8.PNG)
 
-- Test 2
+- Test 2 <br>
 ![test2](https://user-images.githubusercontent.com/22475831/227200516-bbf28b6b-7cff-4f87-bec8-2ac9d855ef39.PNG)
 
-- Test 3
+- Test 3 <br>
 ![test3](https://user-images.githubusercontent.com/22475831/227200577-b3b6ff23-2fac-4008-93c9-4ca8d94c47de.PNG)
